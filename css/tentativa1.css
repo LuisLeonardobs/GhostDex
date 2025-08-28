@@ -11,13 +11,13 @@ html,body{
 
 .titulo{
     width: auto;
-    color: #42194f;
+    color: #a367c5;
     padding-top: 10px;
     font-family:  "Asimovian", sans-serif;
     font-size: 100px;
     font-style: normal;
     display: block;
-    text-shadow: 8px 8px 15px black;
+    text-shadow: 4px 4x 2px black;
     
 }
 
@@ -30,12 +30,23 @@ html,body{
 
 .banner{
     height: 150px;
+    background-image: url(../imagens/animed2.gif);
+    background-repeat: repeat;
+    background-size: cover;
+    border-bottom: 3px solid black;
     display: flex;
     align-items: center;
     justify-content: center;
-    background:  linear-gradient(to right, black, purple, black);
-    
 }
+
+.placa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 580px;
+    height: 130px;
+}
+
 
 .corpo{
     display: flex;
@@ -44,10 +55,24 @@ html,body{
 
 .lateral{
     width: 9%;
-    background-color: red;
+    background-image: url(../imagens/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-right: 3px solid black;
 }
 
 .central{
     flex: 1;
-    background-color: green;   
+    background-color: #343635;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.rodape{
+    height: 100px;
+    background-image: url(../imagens/animed2.gif);
+    background-repeat: repeat;
+    background-size: cover;
+    border-top: 3px solid black;
 }
