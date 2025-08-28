@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+}
+
+
+.titulo{
+    width: auto;
+    color: #42194f;
+    padding-top: 10px;
+    font-family:  "Asimovian", sans-serif;
+    font-size: 100px;
+    font-style: normal;
+    display: block;
+    text-shadow: 8px 8px 15px black;
+    
+}
+
+.logo{
+    height: 150px;
+    width: auto;
+    display: block;
+
+}
+
+.banner{
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:  linear-gradient(to right, black, purple, black);
+    
+}
+
+.corpo{
+    display: flex;
+    height: 100%;
+}
+
+.lateral{
+    width: 9%;
+    background-color: red;
+}
+
+.central{
+    flex: 1;
+    background-color: green;   
+}
