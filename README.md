@@ -26,3 +26,7 @@ O projeto tem como objetivo treinar conceitos de **HTML5**, **CSS3** e boas prá
 - Criação de página exclusiva para cada Pokémon  
 - Sistema de busca por nome  
 - Banco de dados mais extenso com todos os Pokémon
+
+
+
+<!-- Trigger Pages deploy -->
